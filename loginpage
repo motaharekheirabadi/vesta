@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY E-COMMERCE APP</title>
+  </head>
+  <body> 
+     <center>
+      <h1> 
+      </h1>
+      <h2>ورود</h2><br>
+      <form>  
+        <div class="container">   
+          <!-- your label doesn't have any for attribute... -->
+            <label>نام کاربری : </label>   
+            <br>
+            <input type="text" placeholder="نام کاربری را وارد کنید" name="username" required> <br> <br>
+            <label>رمز عبور : </label>    <br>
+            <input type="password" placeholder="پسورد را وارد کنید" name="password" required> <br>  <br>
+            <button type="submit">ورود</button>   <br> 
+            <input type="checkbox" checked="checked"> رمز عبور را بخاطر بسپار <br> <br>
+            <span><a href="#">رمز عبور خود را فراموش کرده اید؟</a></span><br><br>
+            <p>
+                هنوز ثبت نام نکرده اید؟
+            </p>
+            <button type="submit">عضویت</button>  
+              
+        </div>   </center>
+    </form> 
+  </body>
