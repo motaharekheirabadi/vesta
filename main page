@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce App</title>
+  </head>
+  <body>
+    <main>
+     <header>
+        <!----navbar-->
+        <nav>
+            <ul>
+                <li><a href=""><img src="ali-part/img/my-logo.png" alt="logo"></a></li>
+                <li><a href="">دسته محصولات</a></li>
+                <li><a href="">باشگاه مشتریان</a></li>
+                <li><a href="">ارتباط با ما</a></li>
+            </ul>
+            <!----sign-in------>
+            <button name="member" value="membership">عضویت/ورود</button>
+            <!---------Search-Bar------->
+            <p><strong>...دنبال چه چیزی میگردید</strong></p>
+            <div>
+                <input type="text" placeholder="جستجو">
+                <button type="submit">بگرد</button>
+            </div>
+        </nav>
+    </header>
+    <!-- image and title product -->
+    <figure>
+      <center>
+        <h1><a href="product-group page.html">محصولات</a></h1>
+      </center>
+      <img
+        src="https://dkstatics-public.digikala.com/digikala-products/116897408.jpg?x-oss-process=image/resize,h_1600/quality,q_80"
+        width="400px"
+        height="400px"
+        alt="Hoodie"
+      />
+      <figcaption><h1>هودی مردانه مدل X503</h1></figcaption>
+    </figure>
+    <section>
+      <h2>اندازه :</h2>
+      <select>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+        <option>XXL</option>
+      </select>
+      <h2>ویژگی های کالا :</h2>
+      <ul>
+        <li>طرح : ساده</li>
+        <li>آستین : بلند</li>
+        <li>نحوه بسته شدن: جلو بسته</li>
+        <li>مناسب برای فصل: بهار، پاییز، زمستان</li>
+      </ul>
+    </section>
+    <!-- price and add to cart -->
+    <aside>
+      <h2>قیمت :</h2>
+      <s>200,000</s> <span>140,000</span>
+      <h2>تعداد :</h2>
+      <input type="text" value="1" />
+      <button>افزودن به سبد خرید</button>
+    </aside>
+    <hr />
+    <!-- about product -->
+    <section>
+      <h3>مشخصات کالا :</h3>
+      <ul>
+        <li>جنس : پلی استر , پشم</li>
+        <li>طرح : ساده</li>
+        <li>نحوه بسته شدن : جلو بسته</li>
+        <li>ویژگی‌های ظاهری : کاور</li>
+      </ul>
+    </section>
+    <hr />
+    <section>
+      <h3>نقد و بررسی اجمالی :</h3>
+      <p>
+        هودی همراه شما در روز های سرد سال می باشد.درفصل پاییز و زمستان گزینه
+        مناسبی هنگام اسکی ، فعالیت روزانه و حتی در منزل می باشد.این هودی از
+        پارچه دورس داخل کرک دوخته شده می باشد، در بافت پارچه دورس ترکیبی از نخ
+        پنبه و نخ پلی استر به کار رفته است.این هودی دارای یک جیب دوطرفه در وسط و
+        کلاه بند دار است.در سر آستین ها و قسمت کمر از کش استفاده شده تا از ورود
+        سرما از این قسمت ها جلوگیری شده و سویشرت با فرم بهتری روی بدن قرار بگیرد
+        و همینطور به علت داشتن الیاف پلی‌استر بسیار سبک، لطیف و راحت می باشد و
+        مقاومت بالایی نیز در برابر ساییدگی ناشی از شستشو و استفاده‌های مکرر
+        دارد. خوب است بدانید الیاف پلی‌استر مانع از ایجاد چروک در سطح لباس
+        می‌شود.همچنین کلاه هودی در گرم نگه داشتن سر و گردن بسیار موثر و کاربردی
+        می‌باشد.
+      </p>
+    </section>
+    <hr />
+    <!-- rate and submit comment -->
+    <section>
+      <h4>امتیاز 3 از 5</h4>
+      <div>
+        <label for="p-1">کیفیت موارد به کار رفته:</label>
+        <progress id="p-1" value="50" max="100">50%</progress>
+        <br /><br />
+        <label for="p-2">کیفیت دوخت :</label>
+        <progress id="p-2" value="70" max="100">70%</progress>
+        <br /><br />
+        <label for="p-3">فرم لباس روی بدن :</label>
+        <progress id="p-3" value="40" max="100">50%</progress>
+        <br /><br />
+        <label for="p-4">ارزش خرید نسبت به قیمت :</label>
+        <progress id="p-4" value="66" max="100">66%</progress>
+      </div>
+      <hr />
+      <div>
+        <h3>ثبت نظر</h3>
+        <p>شما هم میتوانید در مورد این کالا نظر بدهید.</p>
+        <p>برای ثبت نظر لازم است ابتدا وارد حساب کاربری خود شوید</p>
+        <input type="submit" value="ورود به حساب کاربری" />
+      </div>
+      <hr />
+      <div>
+        <h3>پرسش و پاسخ</h3>
+        <p>پرسش خود را درباره این کالا بیان کنید</p>
+        <textarea
+          cols="100"
+          rows="10"
+          placeholder="پرسش خود را در مورد کالا مطرح کنید ..."
+        ></textarea>
+        <br />
+        <button type="submit">ثبت پرسش</button>
+      </div>
+    </section>
+  </main>
+    <footer>
+        <h4>روش های خرید</h4>
+        <ol>
+            <li><a href="#">خرید آنلاین</a></li>
+            <li><a href="#">خرید حضوری</a></li>
+            <li><a href="#">خرید اقساطی</a></li>
+        </ol>
+        <h4>راهنمای خرید</h4>
+        <ol>
+            <li><a href="#">نحوه ثبت سفارش</a></li>
+            <li><a href="#">رویه ارسال سفارش</a></li>
+            <li><a href="#">شیوه های پرداخت</a></li>
+        </ol>
+        <h4>خدمات مشتریان</h4>
+        <ol>
+            <li><a href="#">پاسخ به پرسش های متداول</a></li>
+            <li><a href="#">شرایط بازگرداندن کالا</a></li>
+            <li><a href="#">حریم خصوصی</a></li>
+            <li><a href="#">گزارش باگ </a></li>
+        </ol>
+    </footer>
+  </body>
